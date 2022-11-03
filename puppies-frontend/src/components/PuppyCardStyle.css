@@ -1,0 +1,99 @@
+@media screen and (min-width: 601px) { 
+    .details-button {
+       display: none;
+    }
+}
+
+
+.show-details {
+    background-color: rgb(170, 170, 170);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.no-details {
+    display: none;
+    background-color: rgb(187, 187, 187);
+}
+
+.show-form {
+    background-color: rgb(170, 170, 170);
+    border-radius: 10px;
+}
+
+.no-form {
+    display: none;
+    background-color: rgb(187, 187, 187);
+}
+
+.puppy-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    padding: 20px;
+    margin: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.puppy-card-container:hover {
+    cursor: pointer;
+}
+.puppy-card {
+    font-size: x-large;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.dog-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dog-image {
+        padding-top: 5px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .details-button {
+        border: 0;
+        padding: 2px;
+        margin: 10px;
+        width: 60%;
+        background-color: rgb(91, 91, 91);
+        color: white;
+        border-radius: 5px;
+        user-select: none;
+    }
+    .details-button:hover {
+        background-color: grey;
+        cursor: pointer;
+    }
+}
+
+/* .card-divider {
+    width: 200px;
+} */
+
+.toggle-button {
+    border: 0;
+    padding: 2px;
+    margin: 10px;
+    width: 60%;
+    background-color: rgb(91, 91, 91);
+    color: white;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.toggle-button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
